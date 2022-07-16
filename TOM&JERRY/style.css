@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #0f0f0f, #191819, #222122, #363637, #4b4b4e, #616365, #777b7d);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.heading{
+    font-family: 'Iceberg', cursive;
+    margin-top: -120px;
+    margin-left: 15%;
+    float: left;
+}
+
+.heading h1{
+    font-size: 250px;
+    position: absolute;
+    z-index: -1;
+    color: #92d8f633;
+}
+
+
+.image-section{
+    float: right;
+    margin-top: 11%;
+    margin-right: 16%;
+}
+
+.sub-texts h3{
+    font-family: 'Creepster', cursive;
+    color: white;
+    float: left;
+    z-index: -1;
+    margin-top: 25%;
+    margin-left: 15%;
+    font-size: 50px;
+}
+
+.sub-texts h2{
+    font-family: 'Damion', cursive;
+    color: white;
+    float: left;
+    z-index: -1;
+    margin-left: 15%;
+    margin-top: -40px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.pricing p{
+    color: white;
+    float: left;
+    z-index: -1;
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: -220px;
+    font-family: 'Inter', sans-serif;
+}
+
+.pricing button{
+    color: white;
+    background-color: #777B7D;
+    float: left;
+    z-index: -1;
+    margin-top: 4.5%;
+    width: 10%;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wishlist{
+    float: left;
+    z-index: -1;
+    margin-left: 15%;
+    margin-top: 6%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.wishlist p{
+    margin-left: 20px;
+    margin-top: 1px;
+    font-family: 'Damion', cursive;
+    font-size: 30px;
+    font-weight: normal;
+}
+
