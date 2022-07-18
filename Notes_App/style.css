@@ -1,0 +1,11 @@
+body{
+    background-color: #242B2E;
+}
+
+.navbar-brand{
+    color: #E21717;
+}
+
+.delete:hover{
+    color: #E21717;
+}
